@@ -1,0 +1,21 @@
+[
+{"cve_id":"CVE-2016-6174","cwe_id":"0","summary":"applications\/core\/modules\/front\/system\/content.php in Invision Power Services IPS Community Suite (aka Invision Power Board, IPB, or Power Board) before 4.1.13, when used with PHP before 5.4.24 or 5.5.x before 5.5.8, allows remote attackers to execute arbitrary code via the content_class parameter.","cvss_score":"6.8","exploit_count":"0","publish_date":"2016-07-12","update_date":"2016-07-14","url":"http:\/\/www.cvedetails.com\/cve\/CVE-2016-6174\/"}
+,
+{"cve_id":"CVE-2016-5839","cwe_id":"0","summary":"WordPress before 4.5.3 allows remote attackers to bypass the sanitize_file_name protection mechanism via unspecified vectors.","cvss_score":"5.0","exploit_count":"0","publish_date":"2016-06-29","update_date":"2016-06-29","url":"http:\/\/www.cvedetails.com\/cve\/CVE-2016-5839\/"}
+,
+{"cve_id":"CVE-2016-5838","cwe_id":"255","summary":"WordPress before 4.5.3 allows remote attackers to bypass intended password-change restrictions by leveraging knowledge of a cookie.","cvss_score":"5.0","exploit_count":"0","publish_date":"2016-06-29","update_date":"2016-06-29","url":"http:\/\/www.cvedetails.com\/cve\/CVE-2016-5838\/"}
+,
+{"cve_id":"CVE-2016-5837","cwe_id":"0","summary":"WordPress before 4.5.3 allows remote attackers to bypass intended access restrictions and remove a category attribute from a post via unspecified vectors.","cvss_score":"5.0","exploit_count":"0","publish_date":"2016-06-29","update_date":"2016-06-29","url":"http:\/\/www.cvedetails.com\/cve\/CVE-2016-5837\/"}
+,
+{"cve_id":"CVE-2016-5836","cwe_id":"0","summary":"The oEmbed protocol implementation in WordPress before 4.5.3 allows remote attackers to cause a denial of service via unspecified vectors.","cvss_score":"5.0","exploit_count":"0","publish_date":"2016-06-29","update_date":"2016-06-29","url":"http:\/\/www.cvedetails.com\/cve\/CVE-2016-5836\/"}
+,
+{"cve_id":"CVE-2016-5835","cwe_id":"200","summary":"WordPress before 4.5.3 allows remote attackers to obtain sensitive revision-history information by leveraging the ability to read a post, related to wp-admin\/includes\/ajax-actions.php and wp-admin\/revision.php.","cvss_score":"5.0","exploit_count":"0","publish_date":"2016-06-29","update_date":"2016-06-29","url":"http:\/\/www.cvedetails.com\/cve\/CVE-2016-5835\/"}
+,
+{"cve_id":"CVE-2016-5832","cwe_id":"0","summary":"The customizer in WordPress before 4.5.3 allows remote attackers to bypass intended redirection restrictions via unspecified vectors.","cvss_score":"5.0","exploit_count":"0","publish_date":"2016-06-29","update_date":"2016-06-29","url":"http:\/\/www.cvedetails.com\/cve\/CVE-2016-5832\/"}
+,
+{"cve_id":"CVE-2016-5829","cwe_id":"119","summary":"Multiple heap-based buffer overflows in the hiddev_ioctl_usage function in drivers\/hid\/usbhid\/hiddev.c in the Linux kernel through 4.6.3 allow local users to cause a denial of service or possibly have unspecified other impact via a crafted (1) HIDIOCGUSAGES or (2) HIDIOCSUSAGES ioctl call.","cvss_score":"7.2","exploit_count":"0","publish_date":"2016-06-27","update_date":"2016-06-27","url":"http:\/\/www.cvedetails.com\/cve\/CVE-2016-5829\/"}
+,
+{"cve_id":"CVE-2016-5828","cwe_id":"20","summary":"The start_thread function in arch\/powerpc\/kernel\/process.c in the Linux kernel through 4.6.3 on powerpc platforms mishandles transactional state, which allows local users to cause a denial of service (invalid process state or TM Bad Thing exception, and system crash) or possibly have unspecified other impact by starting and suspending a transaction before an exec system call.","cvss_score":"7.2","exploit_count":"0","publish_date":"2016-06-27","update_date":"2016-06-27","url":"http:\/\/www.cvedetails.com\/cve\/CVE-2016-5828\/"}
+,
+{"cve_id":"CVE-2016-5821","cwe_id":"264","summary":"Huawei HiSuite before 4.0.4.204_ove (Out of China) and before 4.0.4.301 (China) use a weak ACL (FILE_WRITE_DATA for BUILTIN\\Users) for the HiSuite service directory, which allows local users to gain SYSTEM privileges via a Trojan horse (1) SspiCli.dll or (2) USERENV.dll file or possibly other unspecified DLL files.","cvss_score":"7.2","exploit_count":"0","publish_date":"2016-07-13","update_date":"2016-07-14","url":"http:\/\/www.cvedetails.com\/cve\/CVE-2016-5821\/"}
+]
